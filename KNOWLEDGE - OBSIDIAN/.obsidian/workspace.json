@@ -1,0 +1,2352 @@
+{
+  "main": {
+    "id": "f531b15e8ea3820c",
+    "type": "split",
+    "children": [
+      {
+        "id": "d09d6d0b2c52c512",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9aceabcab3e4112d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/4. Analyse de vulnérabilités/2. Scan de vulnérabilités.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Scan de vulnérabilités"
+            }
+          },
+          {
+            "id": "6c8f55e83078a407",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/2. AD (no creds)/2. KERBEROS/2. AS-REP ROASTING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. AS-REP ROASTING"
+            }
+          },
+          {
+            "id": "9344c034466c7ab4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Active Directory"
+            }
+          },
+          {
+            "id": "555cae15ad4392eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/BLOODHOUND.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BLOODHOUND"
+            }
+          },
+          {
+            "id": "8af16c2a1a367698",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/DACL Abuse/4. AddMember (AddSelf - GenericAll).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. AddMember (AddSelf - GenericAll)"
+            }
+          },
+          {
+            "id": "256ff2a7d0c8833d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/BYPASSES/BYPASS AV - EDR/BYPASS AV - EDR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BYPASS AV - EDR"
+            }
+          },
+          {
+            "id": "e1d99b53ae5b4202",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/POWERVIEW.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "POWERVIEW"
+            }
+          },
+          {
+            "id": "3702a12cfc55f98a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/COMMANDES WINDOWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "COMMANDES WINDOWS"
+            }
+          },
+          {
+            "id": "477c3a914437c5c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/1. Enumération initiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Enumération initiale"
+            }
+          },
+          {
+            "id": "17761d32543e4873",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/BYPASSES/BYPASS AV - EDR/BYPASS AV - EDR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BYPASS AV - EDR"
+            }
+          },
+          {
+            "id": "b255eac7d89b14af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/Credential Hunting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Credential Hunting"
+            }
+          },
+          {
+            "id": "17906b826fa5a270",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/DACL Abuse/3. ForceChangePassword.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. ForceChangePassword"
+            }
+          },
+          {
+            "id": "7d3cb2ca501a0d6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/CVEs/AD - WINDOWS/PetitPotam (MS-EFSRPC).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PetitPotam (MS-EFSRPC)"
+            }
+          },
+          {
+            "id": "30843449dc962e6f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "9da250a301fea76b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Scripting/POWERSHELL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "POWERSHELL"
+            }
+          },
+          {
+            "id": "c55965c7e176fd09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/DACL Abuse/5. GenericWrite.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. GenericWrite"
+            }
+          },
+          {
+            "id": "a0443c8f59be05a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/Persistance/1. DCSYNC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. DCSYNC"
+            }
+          },
+          {
+            "id": "71a64d98db7ff5da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/Overpass The Hash - Pass the Key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Overpass The Hash - Pass the Key"
+            }
+          },
+          {
+            "id": "78a909d262510af1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/CVEs/AD - WINDOWS/PetitPotam (MS-EFSRPC).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PetitPotam (MS-EFSRPC)"
+            }
+          },
+          {
+            "id": "cc15f1308839a37e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASS WAF.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BYPASS WAF"
+            }
+          },
+          {
+            "id": "f6f1537ce35bdfb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/9. OS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "9. OS"
+            }
+          },
+          {
+            "id": "d7133d9abde0db0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DATA TRANSFER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATA TRANSFER"
+            }
+          },
+          {
+            "id": "6830f0cd699e839c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PRIVESC TOOLS/WINDOWS/WES-NG (CVEs).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "WES-NG (CVEs)"
+            }
+          },
+          {
+            "id": "ef7bdf280ba8b477",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/COMMANDES SED.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "COMMANDES SED"
+            }
+          },
+          {
+            "id": "94c9a34419ebf4c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Scripting/BASH.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BASH"
+            }
+          },
+          {
+            "id": "bf3104a2115b50f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/2. C2 Frameworks/METASPLOIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "METASPLOIT"
+            }
+          },
+          {
+            "id": "2fec85e4d753bd27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/BLOODHOUND.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BLOODHOUND"
+            }
+          },
+          {
+            "id": "466081bf8414ed2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/Trusts/1. ExtraSID Attack (Golden Ticket).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. ExtraSID Attack (Golden Ticket)"
+            }
+          },
+          {
+            "id": "83b174ec95bca4e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PIVOTING, TUNNELING & PORT FORWARDING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PIVOTING, TUNNELING & PORT FORWARDING"
+            }
+          },
+          {
+            "id": "33da41b52c46d7b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/Credential Hunting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Credential Hunting"
+            }
+          },
+          {
+            "id": "5e376724fa8a2fb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/12. Kerberos/1. Unconstrained Delegations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Unconstrained Delegations"
+            }
+          },
+          {
+            "id": "ff11373db5bd5238",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/Pass The Ticket (PtT).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pass The Ticket (PtT)"
+            }
+          },
+          {
+            "id": "4e92bf14208e590f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/POWERUPSQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "POWERUPSQL"
+            }
+          },
+          {
+            "id": "30a4bc75b039e653",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Protocoles"
+            }
+          },
+          {
+            "id": "66fd3880a4185dc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/Delegations/2. Constrained Delegation (S4U).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Constrained Delegation (S4U)"
+            }
+          },
+          {
+            "id": "61b2f2962d4f33c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/15. Domain Trusts/2. SID History Attack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. SID History Attack"
+            }
+          },
+          {
+            "id": "b999d24022915218",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DATA TRANSFER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATA TRANSFER"
+            }
+          },
+          {
+            "id": "1355f718783b1deb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/13. SQL Server/MSSQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MSSQL"
+            }
+          },
+          {
+            "id": "fdeae40b7204ac8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/Persistance/2. Ticket Forgery.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Ticket Forgery"
+            }
+          },
+          {
+            "id": "ac5d4c51b0652b16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/0. Services/SQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL"
+            }
+          },
+          {
+            "id": "c09c49f5f0dc08ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/BLOODHOUND.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BLOODHOUND"
+            }
+          },
+          {
+            "id": "04d74a1e84b97878",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/2. C2 Frameworks/METASPLOIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "METASPLOIT"
+            }
+          },
+          {
+            "id": "345ed035a283f67a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
+            }
+          },
+          {
+            "id": "42155677b6401208",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/12. Kerberos/4. Mouvement lateral.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Mouvement lateral"
+            }
+          },
+          {
+            "id": "fac75e13778f7c52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/2. AD (no creds)/1. NetNTLM/LLMNR, NBT-NS Poisoning & SMB Relay - T1557.001.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LLMNR, NBT-NS Poisoning & SMB Relay - T1557.001"
+            }
+          },
+          {
+            "id": "1daaf5f836bcffd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/13. SQL Server/MSSQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MSSQL"
+            }
+          },
+          {
+            "id": "6fa9d1df16c88ba3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/15. Domain Trusts/1. Domain Trusts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Domain Trusts"
+            }
+          },
+          {
+            "id": "18aae3fd0d315fbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/Trusts/3. Admin Password Reuse X-Forest.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Admin Password Reuse X-Forest"
+            }
+          },
+          {
+            "id": "2dc0cebe5e44c75f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/BLOODHOUND.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BLOODHOUND"
+            }
+          },
+          {
+            "id": "72487cf5bb32a738",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/Trusts/2. Kerberoasting X-Forest.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Kerberoasting X-Forest"
+            }
+          },
+          {
+            "id": "54400c96a149e397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/Persistance/1. DCSYNC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. DCSYNC"
+            }
+          },
+          {
+            "id": "14222a21748e6efc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/Overpass The Hash - Pass the Key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Overpass The Hash - Pass the Key"
+            }
+          },
+          {
+            "id": "885062f3f066a61a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/9. Discovery (TA0007)/2. BOFHound.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. BOFHound"
+            }
+          },
+          {
+            "id": "0dfa6fe60569cdd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/15. Domain Trusts/2. SID History Attack.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. SID History Attack"
+            }
+          },
+          {
+            "id": "8575303eb294f80d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DATA TRANSFER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATA TRANSFER"
+            }
+          },
+          {
+            "id": "6d4eff79c3242bbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/Pass The Ticket (PtT).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pass The Ticket (PtT)"
+            }
+          },
+          {
+            "id": "d7ff5e92544d4449",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/1. Enumération initiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Enumération initiale"
+            }
+          },
+          {
+            "id": "cc366a651b9fb271",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DATA TRANSFER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATA TRANSFER"
+            }
+          },
+          {
+            "id": "ca30a08971bba875",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/BYPASSES/BYPASS AV - EDR/BYPASS AV - EDR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BYPASS AV - EDR"
+            }
+          },
+          {
+            "id": "87030b9f1307abf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/CVEs/AD - WINDOWS/PrintNightmare.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PrintNightmare"
+            }
+          },
+          {
+            "id": "d970fd1c3ca2822f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Active Directory"
+            }
+          },
+          {
+            "id": "d2a6fec5a487987e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/3. Users Privileges.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Users Privileges"
+            }
+          },
+          {
+            "id": "405985c6c7b857cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/CVEs/AD - WINDOWS/PetitPotam (MS-EFSRPC).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PetitPotam (MS-EFSRPC)"
+            }
+          },
+          {
+            "id": "e3e3c725f2269932",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/1. Enumération initiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Enumération initiale"
+            }
+          },
+          {
+            "id": "2b1b863bf747d4a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/12. Kerberos/1. Unconstrained Delegations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Unconstrained Delegations"
+            }
+          },
+          {
+            "id": "f58d01c5af4074a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DATA TRANSFER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATA TRANSFER"
+            }
+          },
+          {
+            "id": "f339617330c8035f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/AD CS/ESC8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ESC8"
+            }
+          },
+          {
+            "id": "d9cb625ae624a18b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/AD CS/1. Identifier les Templates de certificats.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Identifier les Templates de certificats"
+            }
+          },
+          {
+            "id": "29ca69b256bf0177",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FORENSIC/Analyse Offline (à froid)/0. Méthodo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0. Méthodo"
+            }
+          },
+          {
+            "id": "e652c167726914a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/Credential Hunting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Credential Hunting"
+            }
+          },
+          {
+            "id": "5361ec097cf305f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Web Servers/IIS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IIS"
+            }
+          },
+          {
+            "id": "110c0a9cf7d0f52c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/6. Applications.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Applications"
+            }
+          },
+          {
+            "id": "90206c1229252596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/8. FUZZING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. FUZZING"
+            }
+          },
+          {
+            "id": "cae8c4920f03e1c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Web Servers/IIS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IIS"
+            }
+          },
+          {
+            "id": "c45a7be4224e017b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/2. AD (no creds)/2. KERBEROS/1. ENUMERATION DES USERS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. ENUMERATION DES USERS"
+            }
+          },
+          {
+            "id": "f9bafb36567fb515",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Active Directory"
+            }
+          },
+          {
+            "id": "9a0049eafb2cab5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQLi (Injections SQL)"
+            }
+          },
+          {
+            "id": "ad4d1166e2dbc50c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/8. FUZZING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. FUZZING"
+            }
+          },
+          {
+            "id": "fccfc5cf177529b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/XSS (Cross-Site Scripting).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "XSS (Cross-Site Scripting)"
+            }
+          },
+          {
+            "id": "9e194d079bf0fa4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/2. DNS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. DNS"
+            }
+          },
+          {
+            "id": "86f56959db5d604f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/2. C2 Frameworks/METASPLOIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "METASPLOIT"
+            }
+          },
+          {
+            "id": "b871ed8f087ec76c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/Commandes utiles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Commandes utiles"
+            }
+          },
+          {
+            "id": "223fceb025c39f77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PIVOTING, TUNNELING & PORT FORWARDING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PIVOTING, TUNNELING & PORT FORWARDING"
+            }
+          },
+          {
+            "id": "51e02d077e35da0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/SHELLS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SHELLS"
+            }
+          },
+          {
+            "id": "07c2de85f2d04fd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/14. Domain Dominance/3. DPAPI Backup Keys.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. DPAPI Backup Keys"
+            }
+          },
+          {
+            "id": "e4ec3ec5995abfc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/9. Discovery (TA0007)/1. LDAP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. LDAP"
+            }
+          },
+          {
+            "id": "e07c8b866f2ca3dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/8. User Impersonation (T1550)/1. Token Impersonation (T1550.001).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Token Impersonation (T1550.001)"
+            }
+          },
+          {
+            "id": "d1077706792db8a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/6. Applications.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Applications"
+            }
+          },
+          {
+            "id": "63d607ee3cdb4b09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/Persistance/1. DCSYNC.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. DCSYNC"
+            }
+          },
+          {
+            "id": "c85dd0ecf8d4a977",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/8. FUZZING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. FUZZING"
+            }
+          },
+          {
+            "id": "78fcfe96d11e7cdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/0.5 Payloads Privesc.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0.5 Payloads Privesc"
+            }
+          },
+          {
+            "id": "98f20d43adca5461",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROG/2. PYTHON.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. PYTHON"
+            }
+          },
+          {
+            "id": "8e88b3fcacd7bc4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Wordlists & Rules.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wordlists & Rules"
+            }
+          },
+          {
+            "id": "acfae98cefbc359b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/4. Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Services"
+            }
+          },
+          {
+            "id": "1fa11a51cdb323e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PIVOTING, TUNNELING & PORT FORWARDING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PIVOTING, TUNNELING & PORT FORWARDING"
+            }
+          },
+          {
+            "id": "1d32be5a5ce43051",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/8. FUZZING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. FUZZING"
+            }
+          },
+          {
+            "id": "ca3476d75dc1762c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/SHELLS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SHELLS"
+            }
+          },
+          {
+            "id": "a10cee6f3ba7216f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/4. Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Services"
+            }
+          },
+          {
+            "id": "f276b38b8c6c327c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/3. Permissions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Permissions"
+            }
+          },
+          {
+            "id": "d517b5bcd5feaf56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/4. Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Services"
+            }
+          },
+          {
+            "id": "f540402f5c68ddc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DATA TRANSFER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATA TRANSFER"
+            }
+          },
+          {
+            "id": "02d0523f602eea79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Protocoles"
+            }
+          },
+          {
+            "id": "ffba573c4a213f61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/4. Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Services"
+            }
+          },
+          {
+            "id": "eadaa5cd81a61f78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/1. Enumération initiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Enumération initiale"
+            }
+          },
+          {
+            "id": "06aec5a34e696cec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/1. Malwares/3. Process Injection (T1055).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Process Injection (T1055)"
+            }
+          },
+          {
+            "id": "88789c8a1de01e17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/1. Malwares/3. Process Injection (T1055).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. Process Injection (T1055)"
+            }
+          },
+          {
+            "id": "40b832152ad8fdb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/3. Acces Initial (TA0001)/2. Payloads.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Payloads"
+            }
+          },
+          {
+            "id": "ba792e9b25da986e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DLL HIJACKING WINDOWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DLL HIJACKING WINDOWS"
+            }
+          },
+          {
+            "id": "d7590f3f0d450aaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/SHELLS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SHELLS"
+            }
+          },
+          {
+            "id": "9b83b40d76abd0d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/1. Exploitation de Binaires/1. Buffer Overflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Buffer Overflow"
+            }
+          },
+          {
+            "id": "a14c7cdf480e08da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/BYPASSES/BYPASS AV - EDR/BYPASS AV - EDR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BYPASS AV - EDR"
+            }
+          },
+          {
+            "id": "b1e176876b4d911d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/FILE UPLOAD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FILE UPLOAD"
+            }
+          },
+          {
+            "id": "6ec1f94f9a895aa8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Scripting/BASH.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BASH"
+            }
+          },
+          {
+            "id": "ff8bf365a91a705b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/11. Interactions avec les utilisateurs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11. Interactions avec les utilisateurs"
+            }
+          },
+          {
+            "id": "586dac540b30f0f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/CVEs/AD - WINDOWS/PrintNightmare.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PrintNightmare"
+            }
+          },
+          {
+            "id": "5ca760d435683300",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/BLOODHOUND.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BLOODHOUND"
+            }
+          },
+          {
+            "id": "6de25a3481b4fd8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/Pass The Ticket (PtT).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pass The Ticket (PtT)"
+            }
+          },
+          {
+            "id": "31bcb18a4ee693c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/POWERVIEW.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "POWERVIEW"
+            }
+          },
+          {
+            "id": "fbb8a8efb501ee37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/DACL Abuse/4. AddMember (AddSelf - GenericAll).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. AddMember (AddSelf - GenericAll)"
+            }
+          },
+          {
+            "id": "02fca8738db6059f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/COMMANDES WINDOWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "COMMANDES WINDOWS"
+            }
+          },
+          {
+            "id": "d2b3cdad38e9ad54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/Pass The Ticket (PtT).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pass The Ticket (PtT)"
+            }
+          },
+          {
+            "id": "bfa568526158fe26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/1. Enumération initiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Enumération initiale"
+            }
+          },
+          {
+            "id": "4d9ae98779c1d7ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Active Directory"
+            }
+          },
+          {
+            "id": "869dac78e1486dd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/SHELLS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SHELLS"
+            }
+          },
+          {
+            "id": "a22e9f0a967489f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/1. Enumération initiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Enumération initiale"
+            }
+          },
+          {
+            "id": "202abd9d33ff6769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PRIVESC TOOLS/WINDOWS/SHARPUP (Services - Registre).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SHARPUP (Services - Registre)"
+            }
+          },
+          {
+            "id": "b31b6fde03911e42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/BYPASSES/BYPASS AV - EDR/BYPASS AV - EDR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BYPASS AV - EDR"
+            }
+          },
+          {
+            "id": "931e8cefcba4dcc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/RunAs & RunasCs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RunAs & RunasCs"
+            }
+          },
+          {
+            "id": "b4cffd264c60a480",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DATA TRANSFER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATA TRANSFER"
+            }
+          },
+          {
+            "id": "a06ce71c27d34593",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/11. Interactions avec les utilisateurs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "11. Interactions avec les utilisateurs"
+            }
+          },
+          {
+            "id": "0fd49da6bc47d320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/4. Groups Privileges.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Groups Privileges"
+            }
+          },
+          {
+            "id": "da89ea36569c88a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DEOBFUSCATION - OBFUSCATION.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DEOBFUSCATION - OBFUSCATION"
+            }
+          },
+          {
+            "id": "596fe349a35b0a0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/4. CLOUD/Ressources.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ressources"
+            }
+          },
+          {
+            "id": "990b954dc354dbff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/1. Malwares/2. Processus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Processus"
+            }
+          },
+          {
+            "id": "eb00233e8db6799b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROG/6. C.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. C"
+            }
+          },
+          {
+            "id": "a3797bfe83a87fa1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)/Shellcode Generation & Encryption.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Shellcode Generation & Encryption"
+            }
+          },
+          {
+            "id": "ee54a52fdabe47c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/BYPASSES/BYPASS AV - EDR/BYPASS AV - EDR.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BYPASS AV - EDR"
+            }
+          },
+          {
+            "id": "e83ae6848fceaf91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/8. FUZZING.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "8. FUZZING"
+            }
+          },
+          {
+            "id": "8df4da551edc4be0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/RED TEAMING/2. C2 Frameworks/COBALT STRIKE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "COBALT STRIKE"
+            }
+          },
+          {
+            "id": "90b179fb5d88a351",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROG/6. C.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. C"
+            }
+          },
+          {
+            "id": "c60a6d9a2ca30aa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DLL HIJACKING WINDOWS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DLL HIJACKING WINDOWS"
+            }
+          },
+          {
+            "id": "e1bde29a93e6baad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/Overpass The Hash - Pass the Key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Overpass The Hash - Pass the Key"
+            }
+          },
+          {
+            "id": "184a5f3d9cb1995d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Active Directory"
+            }
+          },
+          {
+            "id": "80ed496e27777120",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/DACL Abuse/10. CreateChild.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10. CreateChild"
+            }
+          },
+          {
+            "id": "84e46d859f4c7680",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/2. WINDOWS/1. PRIVESC/6. UAC - Services - Registry - DLL Attacks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. UAC - Services - Registry - DLL Attacks"
+            }
+          },
+          {
+            "id": "c0173078f56e69bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/SHELLS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SHELLS"
+            }
+          },
+          {
+            "id": "2e0c400fad4842e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/1. Enumération initiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Enumération initiale"
+            }
+          },
+          {
+            "id": "7665c545872eaf41",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/3. AD (avec creds)/AD CS/Steal CA private Key.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Steal CA private Key"
+            }
+          },
+          {
+            "id": "26976e205aa1a3ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQLi (Injections SQL)"
+            }
+          },
+          {
+            "id": "5b2d8d87ae62b77c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQLi (Injections SQL)"
+            }
+          },
+          {
+            "id": "6d02267f0c820644",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/DATA TRANSFER.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DATA TRANSFER"
+            }
+          },
+          {
+            "id": "ec0ea2c19f3c93fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Protocoles"
+            }
+          },
+          {
+            "id": "2b888b1a28bf9a44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Protocoles"
+            }
+          },
+          {
+            "id": "7313fc9b34cb266a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/AD TOOLS/BLOODHOUND.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BLOODHOUND"
+            }
+          }
+        ],
+        "currentTab": 149
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e3e774781c60451",
+    "type": "split",
+    "children": [
+      {
+        "id": "c271507cfd920465",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a290a3f4a94bb40",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
+            }
+          },
+          {
+            "id": "cccc06b162f03635",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sqlmap",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Rechercher"
+            }
+          },
+          {
+            "id": "29640e5caa8fd37a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorateur de fichiers"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 410.5
+  },
+  "right": {
+    "id": "0f1e4de35cfdeb34",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4e13a9405d51330",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cb92389d559ee7b8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA/5. EXPLOITATION/0. Services communs/SMTP - IMAP - POP3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rétrolien pour SMTP - IMAP - POP3"
+            }
+          },
+          {
+            "id": "a76d01cccb1ebbd4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Liens sortants"
+            }
+          },
+          {
+            "id": "04ddf7ed9f57cd3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Mots-clés"
+            }
+          },
+          {
+            "id": "278b3f137c94c506",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Plan"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "5b2d8d87ae62b77c",
+  "lastOpenFiles": [
+    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION XSS & CSRF.md",
+    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION XXE.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/XSS (Cross-Site Scripting).md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
+    "1. MISC/Bruteforce en ligne.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Login BRUTE FORCE.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/BROKEN AUTHENTICATION.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/LDAP Injections.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/INSECURE DESERIALIZATION.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASS WAF.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASS RATE LIMITING.md",
+    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION SQLi.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/9. GIT.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/3. Ports ouverts.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/1. Identifier les hôtes.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/2. AD (no creds)/2. KERBEROS/1. ENUMERATION DES USERS.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/6. Applications.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/7. CRAWLING & SCRAPING.md",
+    "PROG/2. PYTHON.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/0. Rappel.md",
+    "OFFSEC/PENTEST/1. WEB/0.2 Méthodo/Méthodo.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/1. Enumération initiale.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/5. Environnement.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/0. Checklist.md",
+    "Pasted image 20251120032804.png",
+    "Pasted image 20251120032633.png",
+    "Pasted image 20251120025445.png",
+    "Pasted image 20251118181902.png",
+    "OFFSEC/RED TEAMING/Méthodologie Red Team Engagment.canvas",
+    "Pasted image 20251114230738.png",
+    "Pasted image 20251114201215.png",
+    "OFFSEC/PENTEST/4. CLOUD",
+    "Pasted image 20251111215424.png",
+    "Pasted image 20250911004953.png",
+    "DEVSECOPS",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/LINUX.canvas",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/Attaques de Coercition",
+    "Thumbs.db",
+    "Pasted image 20251001155219.png",
+    "OFFSEC/RED TEAMING/Sans titre.base",
+    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)/Sans titre.canvas",
+    "Pasted image 20250920034459.png",
+    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)",
+    "OFFSEC/RED TEAMING/15. Domain Trusts",
+    "OFFSEC/RED TEAMING/14. Domain Dominance",
+    "OFFSEC/RED TEAMING/13. SQL Server",
+    "OFFSEC/RED TEAMING/12. Kerberos"
+  ]
+}

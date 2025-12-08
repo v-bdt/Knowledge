@@ -1,0 +1,4 @@
+
+```
+./lynis audit system
+```

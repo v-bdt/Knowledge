@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"0fe1dab521b2f5c9","type":"text","text":"# 1. Préparation du C2\n\n\n1. [ ] [[COBALT STRIKE#Defence Evasion|Build Artifact & Resources Kit]]\n2. [ ] [[COBALT STRIKE#Listeners |Générer les listeners]]\n3. [ ] [[COBALT STRIKE#Modifier Profile malleable|Modifier Profile malleable pour evader la détection]]\n\t1. [ ] [[COBALT STRIKE#BEACON MEMORY|Beacon Memory]]\n\t2. [ ] [[COBALT STRIKE#POST-EX FORK & RUN|POST-EX FORK & RUN]]\n4. [ ] [[COBALT STRIKE#Payloads|Générer les payloads]]\n5. [ ] Tester le bon fonctionnement des beacons.","x":-1520,"y":-1240,"width":500,"height":300},
+		{"id":"aa46984cb62edb44","type":"text","text":"# 2. Obtenir un accès initial\n\n1. [ ] [[6. Delivery|Livraison de la charge]]","x":-664,"y":-1100,"width":385,"height":160},
+		{"id":"8b614905f7fb5763","type":"text","text":"# 5. Escalade de privilèges local\n\n[[0. Enumeration]]\n\t- [[1. Software Vulnerabilities (T1068)]]\n\t- [[2. Weak Service Permissions (T1574)]]\n\t- [[3. Path interception (T1574)]]\n\t- [[4. DLL Search Order Hijacking (T1574)]]\n\t- [[5. UAC Bypass (T1548.002)]]\n\t- [[6. SeImpersonatePrivilege]]","x":-1562,"y":-360,"width":475,"height":260},
+		{"id":"1b9680f2ace1060a","type":"text","text":"# 6. Etablir une persistance SYSTEM / Admin\n\n[[3. Scheduled Task (T1053.005)]]","x":-665,"y":-240,"width":585,"height":160},
+		{"id":"b5c3cf061b41a03b","type":"text","text":"# 7. Dump Credentials\n\n[[1. Credentials from Web Browsers (T1555.003)]]\n[[2. Windows Credential Manager (T1555.004)]]\n[[3. OS Credential Dumping (T1003)]]\n[[4. Kerberos Tickets (T1558)]]","x":-1600,"y":80,"width":475,"height":200},
+		{"id":"a822a6bedc56b181","type":"text","text":"# 8. Usurper Utilisateur et mouvement latéral\n\nUsurper user :\n- [[1. Token Impersonation (T1550.001)]]\n- [[3. Pass the Ticket (T1550.003)]]\n- [[4. Process Injection (T1055)]]\n\nLatéraliser :\n- [[3. Custom Techniques]]","x":-1909,"y":400,"width":585,"height":320},
+		{"id":"4ccfba6d1b83f489","type":"text","text":"# 9. Etablir une persistance Admin du domaine\n\n[[1. DCSYNC]]\n[[2. Ticket Forgery (T1558)]]","x":-600,"y":180,"width":585,"height":200},
+		{"id":"a2c914b8527fefbd","type":"text","text":"# 10. Compromettre les domain Trusts\n\n[[1. Domain Trusts]]\n[[2. SID History Attack]]\n[[3. 1way Inbound Trusts]]\n[[4. 1way Outbound Trust]]","x":280,"y":-160,"width":585,"height":200},
+		{"id":"2119e8473fc87aca","type":"text","text":"# 4. Enumérer l'AD et identifier le chemin d'attaque\n\n1. [[1. LDAP]]\n2. [[2. BOFHound]]","x":-471,"y":-680,"width":385,"height":220},
+		{"id":"2cb058d5f5d3816c","type":"text","text":"# 3. Etablir une persistance user standard\n\n> [!Warning]\n> Spawn un nouveau beacon dans un process comme svchost.exe avant de passer quelconque commande. -> [[COBALT STRIKE#Session Passing]]. (Evite de se faire gauler par l'AV.)\n\nEtablir persistance :\n1. [ ] [[1. Boot & Logon Autostart Execution (T1547)]]\n2. [ ] [[3. Scheduled Task (T1053.005)]]\n3. [ ] [[6. Timestomp]]","x":-1672,"y":-840,"width":585,"height":380}
+	],
+	"edges":[
+		{"id":"914b1b781dfe260d","fromNode":"0fe1dab521b2f5c9","fromSide":"right","toNode":"aa46984cb62edb44","toSide":"left"},
+		{"id":"50ee0b0289626e0b","fromNode":"aa46984cb62edb44","fromSide":"bottom","toNode":"2cb058d5f5d3816c","toSide":"top"},
+		{"id":"1e556bf1f3dd0472","fromNode":"2cb058d5f5d3816c","fromSide":"right","toNode":"2119e8473fc87aca","toSide":"left"},
+		{"id":"4439e2414453cd4e","fromNode":"2119e8473fc87aca","fromSide":"bottom","toNode":"8b614905f7fb5763","toSide":"top"},
+		{"id":"01bc640da821bc64","fromNode":"8b614905f7fb5763","fromSide":"right","toNode":"1b9680f2ace1060a","toSide":"left"},
+		{"id":"bbdfbd00dcefdd0a","fromNode":"1b9680f2ace1060a","fromSide":"bottom","toNode":"b5c3cf061b41a03b","toSide":"top"},
+		{"id":"e76e6041c54f66bb","fromNode":"b5c3cf061b41a03b","fromSide":"bottom","toNode":"a822a6bedc56b181","toSide":"top"},
+		{"id":"792805abb4f79d8a","fromNode":"4ccfba6d1b83f489","fromSide":"top","toNode":"a2c914b8527fefbd","toSide":"bottom"},
+		{"id":"03d128ce85b0171b","fromNode":"a822a6bedc56b181","fromSide":"left","toNode":"2cb058d5f5d3816c","toSide":"left"},
+		{"id":"068e12dce3e21b86","fromNode":"2cb058d5f5d3816c","fromSide":"bottom","toNode":"8b614905f7fb5763","toSide":"top"}
+	]
+}
