@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/4. WAYBACK MACHINE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Scan de vulnérabilités"
+              "title": "4. WAYBACK MACHINE"
             }
           }
         ],
@@ -179,6 +179,7 @@
   },
   "active": "90848198be900902",
   "lastOpenFiles": [
+    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/7. CRAWLING & SCRAPING.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/6. FINGERPRINTING.md",
     "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
@@ -187,7 +188,6 @@
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/8. FUZZING.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/5. AUTOMATING RECON.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/4. WAYBACK MACHINE.md",
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing/BROKEN AUTHENTICATION.md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/OPEN REDIRECT.md",
