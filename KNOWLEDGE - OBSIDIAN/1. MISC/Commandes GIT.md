@@ -34,7 +34,13 @@ git status
 git add .
 ```
 
-4. Commit pour tracer les changements effectués
+4. Afficher les modifs 
+
+```sh
+git status
+```
+
+5. Commit pour tracer les changements effectués
 
 ```sh
 git commit -m "Your commit message"
