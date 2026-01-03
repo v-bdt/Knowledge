@@ -10,3 +10,38 @@ afficher commit
 ```bash
 git show <commit>
 ```
+
+---
+# Gestion repo SSH
+
+Mettre en place clé SSH pour gérer repo -> https://dev.to/hbolajraf/git-connecting-to-github-and-pushing-changes-using-ssh-on-windows-2f5
+
+1. Mise a jour du repo en faisant un Pull
+
+```sh
+git pull origin main
+```
+
+2. Ajout des fichiers modifiés
+
+```sh
+git add .
+```
+
+3. Git status
+
+```sh
+git status
+```
+
+4. Commit pour tracer les changements effectués
+
+```sh
+git commit -m "Your commit message"
+```
+
+4. Pousser les changements sur le repo
+
+```sh
+git push origin main
+```
