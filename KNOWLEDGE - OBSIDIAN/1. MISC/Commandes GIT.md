@@ -16,6 +16,12 @@ git show <commit>
 
 Mettre en place clé SSH pour gérer repo -> https://dev.to/hbolajraf/git-connecting-to-github-and-pushing-changes-using-ssh-on-windows-2f5
 
+0. Vérifier qu'on est connecté au serveur
+
+```sh
+ssh -vT git@github.com
+```
+
 1. Mise a jour du repo en faisant un Pull
 
 ```sh

@@ -179,6 +179,8 @@
   },
   "active": "90848198be900902",
   "lastOpenFiles": [
+    "1. MISC/CVEs/AD - WINDOWS/NoPAC (SamAccountName Spoofing).md",
+    "1. MISC/Commandes GIT.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/4. WAYBACK MACHINE.md",
     "GIT",
     "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
@@ -205,7 +207,6 @@
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASS RATE LIMITING.md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASS WAF.md",
     "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION CORS.md",
-    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION Broken Function Level Authorization.md",
     "OFFSEC/PENTEST/1. WEB/0. Standards/OWASP/Web Security Testing Guide (WSTG)/checklist.xlsx",
     "Pasted image 20251120032804.png",
     "Pasted image 20251120032633.png",
