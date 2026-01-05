@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "f531b15e8ea3820c",
+    "id": "88d98b11887ce144",
     "type": "split",
     "children": [
       {
-        "id": "b6f01b6284bf8efe",
+        "id": "04fb6668260890b7",
         "type": "tabs",
         "children": [
           {
-            "id": "9fa36e7aba8afefb",
+            "id": "605e2d71d67280c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,6 +20,7 @@
               "icon": "lucide-file",
               "title": "2. Analyse des entêtes HTTP"
             }
+<<<<<<< Updated upstream
           },
           {
             "id": "90848198be900902",
@@ -51,35 +52,46 @@
           }
         ],
         "currentTab": 2
+=======
+          }
+        ]
+>>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "0e3e774781c60451",
+    "id": "60b32e56dbe8ddc3",
     "type": "split",
     "children": [
       {
-        "id": "c271507cfd920465",
+        "id": "762f9cc8b25a2b9a",
         "type": "tabs",
         "children": [
           {
-            "id": "7a290a3f4a94bb40",
+            "id": "6be4c74fa01d46b3",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Signet"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
-            "id": "cccc06b162f03635",
+            "id": "619f1c00a9e26007",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
+<<<<<<< Updated upstream
                 "query": "/ws",
+=======
+                "query": "",
+>>>>>>> Stashed changes
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,40 +103,36 @@
             }
           },
           {
-            "id": "29640e5caa8fd37a",
+            "id": "906e5d50adbf966a",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 300
   },
   "right": {
-    "id": "0f1e4de35cfdeb34",
+    "id": "f90990c0a8dc6b0f",
     "type": "split",
     "children": [
       {
-        "id": "b4e13a9405d51330",
+        "id": "b37fb2cc766343fc",
         "type": "tabs",
         "children": [
           {
-            "id": "cb92389d559ee7b8",
+            "id": "7c237daaff36e1f8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OFFSEC/PENTEST/2. INFRA/5. EXPLOITATION/0. Services communs/SMTP - IMAP - POP3.md",
+                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,43 +142,51 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour SMTP - IMAP - POP3"
+              "title": "Backlinks for 2. Analyse des entêtes HTTP"
             }
           },
           {
-            "id": "a76d01cccb1ebbd4",
+            "id": "238b88024c4fd09b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Liens sortants"
+              "title": "Outgoing links from 2. Analyse des entêtes HTTP"
             }
           },
           {
-            "id": "04ddf7ed9f57cd3e",
+            "id": "8c21d081fc6067db",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Mots-clés"
+              "title": "Tags"
             }
           },
           {
-            "id": "278b3f137c94c506",
+            "id": "9e73afd07c326d22",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-list",
-              "title": "Plan"
+              "title": "Outline of 2. Analyse des entêtes HTTP"
             }
           }
         ]
@@ -191,6 +207,7 @@
       "bases:Create new base": false
     }
   },
+<<<<<<< Updated upstream
   "active": "f02ab529cab77265",
   "lastOpenFiles": [
     "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
@@ -242,5 +259,13 @@
     "Pasted image 20250920034459.png",
     "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)",
     "OFFSEC/RED TEAMING/15. Domain Trusts"
+=======
+  "active": "605e2d71d67280c5",
+  "lastOpenFiles": [
+    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/SSIi (Server Side Includes Injection).md",
+    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md"
+>>>>>>> Stashed changes
   ]
 }
