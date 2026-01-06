@@ -1,75 +1,41 @@
 {
   "main": {
-    "id": "88d98b11887ce144",
+    "id": "e7c1e8a06794a8fe",
     "type": "split",
     "children": [
       {
-        "id": "04fb6668260890b7",
+        "id": "72bf2598ced92a37",
         "type": "tabs",
         "children": [
           {
-            "id": "605e2d71d67280c5",
+            "id": "242a4fd3b31bdaa5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Analyse des entêtes HTTP"
+              "title": "Web Services & API"
             }
-<<<<<<< Updated upstream
-          },
-          {
-            "id": "90848198be900902",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SQLi (Injections SQL)"
-            }
-          },
-          {
-            "id": "f02ab529cab77265",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/3. Configuration TLS - SSL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3. Configuration TLS - SSL"
-            }
-          }
-        ],
-        "currentTab": 2
-=======
           }
         ]
->>>>>>> Stashed changes
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "60b32e56dbe8ddc3",
+    "id": "825c9291b5372aa6",
     "type": "split",
     "children": [
       {
-        "id": "762f9cc8b25a2b9a",
+        "id": "211d4f9d14f4ab70",
         "type": "tabs",
         "children": [
           {
-            "id": "6be4c74fa01d46b3",
+            "id": "f6f8e3e6aaa08348",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -82,16 +48,12 @@
             }
           },
           {
-            "id": "619f1c00a9e26007",
+            "id": "17b8a1c5b164ecd1",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-<<<<<<< Updated upstream
-                "query": "/ws",
-=======
                 "query": "",
->>>>>>> Stashed changes
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +65,7 @@
             }
           },
           {
-            "id": "906e5d50adbf966a",
+            "id": "2cdb0ddec7de27d4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -119,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "f90990c0a8dc6b0f",
+    "id": "4a55f15b207e6b20",
     "type": "split",
     "children": [
       {
-        "id": "b37fb2cc766343fc",
+        "id": "3b618b12fb4145bb",
         "type": "tabs",
         "children": [
           {
-            "id": "7c237daaff36e1f8",
+            "id": "e17e060f92f945d0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2. Analyse des entêtes HTTP"
+              "title": "Backlinks for Web Services & API"
             }
           },
           {
-            "id": "238b88024c4fd09b",
+            "id": "167cf689e2e937cd",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2. Analyse des entêtes HTTP"
+              "title": "Outgoing links from Web Services & API"
             }
           },
           {
-            "id": "8c21d081fc6067db",
+            "id": "4bfd5fc877496270",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -175,18 +137,18 @@
             }
           },
           {
-            "id": "9e73afd07c326d22",
+            "id": "df17e3da74969c50",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. Analyse des entêtes HTTP"
+              "title": "Outline of Web Services & API"
             }
           }
         ]
@@ -207,65 +169,24 @@
       "bases:Create new base": false
     }
   },
-<<<<<<< Updated upstream
-  "active": "f02ab529cab77265",
+  "active": "242a4fd3b31bdaa5",
   "lastOpenFiles": [
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Command Injection.md",
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/3. Configuration TLS - SSL.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing/BROKEN AUTHENTICATION.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/IDOR (Insecure Direct Object References).md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/8. FUZZING.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/XSS (Cross-Site Scripting).md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/6. Applications.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/7. CRAWLING & SCRAPING.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/2. DNS.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/1. WHOIS.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/3. SEARCH ENGINE DISCOVERY.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/6. FINGERPRINTING.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/5. AUTOMATING RECON.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/4. WAYBACK MACHINE.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/3. SEARCH ENGINE DISCOVERY.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/2. DNS.md",
-    "1. MISC/Commandes GIT.md",
-    "1. MISC/CVEs/AD - WINDOWS/NoPAC (SamAccountName Spoofing).md",
-    "GIT",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/OPEN REDIRECT.md",
-    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION OPEN REDIRECT.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/LDAP Injections.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Login BRUTE FORCE.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/INSECURE DESERIALIZATION.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/SESSIONS.md",
-    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION XSS & CSRF.md",
-    "OFFSEC/PENTEST/1. WEB/0. Standards/OWASP/Web Security Testing Guide (WSTG)/checklist.xlsx",
-    "Pasted image 20251120032804.png",
-    "Pasted image 20251120032633.png",
-    "Pasted image 20251120025445.png",
-    "Pasted image 20251118181902.png",
-    "OFFSEC/RED TEAMING/Méthodologie Red Team Engagment.canvas",
-    "Pasted image 20251114230738.png",
-    "Pasted image 20251114201215.png",
-    "OFFSEC/PENTEST/4. CLOUD",
-    "Pasted image 20251111215424.png",
-    "Pasted image 20250911004953.png",
-    "DEVSECOPS",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/LINUX.canvas",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/Attaques de Coercition",
-    "Thumbs.db",
-    "Pasted image 20251001155219.png",
-    "OFFSEC/RED TEAMING/Sans titre.base",
-    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)/Sans titre.canvas",
-    "Pasted image 20250920034459.png",
-    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)",
-    "OFFSEC/RED TEAMING/15. Domain Trusts"
-=======
-  "active": "605e2d71d67280c5",
-  "lastOpenFiles": [
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/SSIi (Server Side Includes Injection).md",
+    "OFFSEC/PENTEST/1. WEB/0.2 Méthodo/Méthodo.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/1. Identifier les hôtes.md",
     "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md"
->>>>>>> Stashed changes
+    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/3. Configuration TLS - SSL.md"
   ]
 }
