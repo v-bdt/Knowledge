@@ -1,14 +1,42 @@
 {
   "main": {
-    "id": "e7c1e8a06794a8fe",
+    "id": "f531b15e8ea3820c",
     "type": "split",
     "children": [
       {
-        "id": "72bf2598ced92a37",
+        "id": "b6f01b6284bf8efe",
         "type": "tabs",
         "children": [
           {
-            "id": "242a4fd3b31bdaa5",
+            "id": "9fa36e7aba8afefb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. Analyse des entêtes HTTP"
+            }
+          },
+          {
+            "id": "90848198be900902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQLi (Injections SQL)"
+            }
+          },
+          {
+            "id": "f02ab529cab77265",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,35 +48,103 @@
               "icon": "lucide-file",
               "title": "Web Services & API"
             }
+          },
+          {
+            "id": "7525325532554d9e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTTP Verb Tempering"
+            }
+          },
+          {
+            "id": "f4ef08b33459d8b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Wordlists & Rules.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Wordlists & Rules"
+            }
+          },
+          {
+            "id": "fcbd89de46abb417",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Servlet Containers - CI CD/TOMCAT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TOMCAT"
+            }
+          },
+          {
+            "id": "aa3b651df5f51a55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/COMMANDES SED.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "COMMANDES SED"
+            }
+          },
+          {
+            "id": "702069efd6d178dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/Commandes GIT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Commandes GIT"
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "825c9291b5372aa6",
+    "id": "0e3e774781c60451",
     "type": "split",
     "children": [
       {
-        "id": "211d4f9d14f4ab70",
+        "id": "c271507cfd920465",
         "type": "tabs",
         "children": [
           {
-            "id": "f6f8e3e6aaa08348",
+            "id": "7a290a3f4a94bb40",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Signet"
             }
           },
           {
-            "id": "17b8a1c5b164ecd1",
+            "id": "cccc06b162f03635",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,36 +161,40 @@
             }
           },
           {
-            "id": "2cdb0ddec7de27d4",
+            "id": "29640e5caa8fd37a",
             "type": "leaf",
             "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 410.5
   },
   "right": {
-    "id": "4a55f15b207e6b20",
+    "id": "0f1e4de35cfdeb34",
     "type": "split",
     "children": [
       {
-        "id": "3b618b12fb4145bb",
+        "id": "b4e13a9405d51330",
         "type": "tabs",
         "children": [
           {
-            "id": "e17e060f92f945d0",
+            "id": "cb92389d559ee7b8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
+                "file": "OFFSEC/PENTEST/2. INFRA/5. EXPLOITATION/0. Services communs/SMTP - IMAP - POP3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,51 +204,43 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Web Services & API"
+              "title": "Rétrolien pour SMTP - IMAP - POP3"
             }
           },
           {
-            "id": "167cf689e2e937cd",
+            "id": "a76d01cccb1ebbd4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Web Services & API"
+              "title": "Liens sortants"
             }
           },
           {
-            "id": "4bfd5fc877496270",
+            "id": "04ddf7ed9f57cd3e",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
-            "id": "df17e3da74969c50",
+            "id": "278b3f137c94c506",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Web Services & API"
+              "title": "Plan"
             }
           }
         ]
@@ -169,24 +261,56 @@
       "bases:Create new base": false
     }
   },
-  "active": "242a4fd3b31bdaa5",
+  "active": "702069efd6d178dd",
   "lastOpenFiles": [
+    "1. MISC/Servlet Containers - CI CD/TOMCAT.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/3. SEARCH ENGINE DISCOVERY.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/1. Recon/1. OSINT.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Login BRUTE FORCE.md",
+    "1. MISC/COMMANDES SED.md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing/BROKEN AUTHENTICATION.md",
+    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION BROKEN AUTHENTICATION.md",
+    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION Broken Function Level Authorization.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/8. FUZZING.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/7. CRAWLING & SCRAPING.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/5. AUTOMATING RECON.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/6. FINGERPRINTING.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/4. WAYBACK MACHINE.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/0. Rappel.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/1. WHOIS.md",
+    "REVERSE/1. ANALYSE SIMPLE/1. ANALYSE STATIQUE SIMPLE.md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/XSS (Cross-Site Scripting).md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/6. Applications.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/7. CRAWLING & SCRAPING.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/2. DNS.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/1. WHOIS.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/3. SEARCH ENGINE DISCOVERY.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/6. FINGERPRINTING.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/5. AUTOMATING RECON.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/4. WAYBACK MACHINE.md",
-    "OFFSEC/PENTEST/1. WEB/0.2 Méthodo/Méthodo.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/1. Identifier les hôtes.md",
+    "1. MISC/Wordlists & Rules.md",
+    "OFFSEC/RED TEAMING/14. Domain Dominance/3. DPAPI Backup Keys.md",
+    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/3. Configuration TLS - SSL.md",
+    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
     "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/3. Configuration TLS - SSL.md"
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Command Injection.md",
+    "GIT",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing",
+    "OFFSEC/PENTEST/1. WEB/0. Standards/OWASP/Web Security Testing Guide (WSTG)/checklist.xlsx",
+    "Pasted image 20251120032804.png",
+    "Pasted image 20251120032633.png",
+    "Pasted image 20251120025445.png",
+    "Pasted image 20251118181902.png",
+    "OFFSEC/RED TEAMING/Méthodologie Red Team Engagment.canvas",
+    "Pasted image 20251114230738.png",
+    "Pasted image 20251114201215.png",
+    "OFFSEC/PENTEST/4. CLOUD",
+    "Pasted image 20251111215424.png",
+    "Pasted image 20250911004953.png",
+    "DEVSECOPS",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/LINUX.canvas",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/Attaques de Coercition",
+    "Thumbs.db",
+    "Pasted image 20251001155219.png",
+    "OFFSEC/RED TEAMING/Sans titre.base",
+    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)/Sans titre.canvas",
+    "Pasted image 20250920034459.png",
+    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)",
+    "OFFSEC/RED TEAMING/15. Domain Trusts"
   ]
 }

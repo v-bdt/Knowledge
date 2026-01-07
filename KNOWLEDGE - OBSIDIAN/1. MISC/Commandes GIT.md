@@ -22,7 +22,13 @@ Mettre en place clé SSH pour gérer repo -> https://dev.to/hbolajraf/git-connec
 ssh -vT git@github.com
 ```
 
-1. Mise a jour du repo en faisant un Pull
+1. Ajouter clé ssh si nécessaire
+
+```sh
+ssh-add ~/.ssh/id_rsa
+```
+
+2. Mise a jour du repo en faisant un Pull
 
 ```sh
 git pull origin main

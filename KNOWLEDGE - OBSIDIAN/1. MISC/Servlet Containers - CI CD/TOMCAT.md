@@ -2,6 +2,7 @@
 
 - [ ] [[#Fichiers / Dossiers Importants]]
 - [ ] [[#ENUMERATION MANUELLE]]
+- [ ] [[#ENUMERATION AUTO]]
 - [ ] [[#EXPLOITATION]]
 - [ ] [[#HARDENING]]
 
@@ -113,6 +114,22 @@ gobuster dir -u http://web01.inlanefreight.local:8180/ -w /usr/share/dirbuster/w
 
 `tomcat:tomcat`, `admin:admin` ...
 
+
+# ENUMERATION AUTO
+
+https://github.com/p0dalirius/ApacheTomcatScanner
+
+install
+
+```sh
+pipx install apachetomcatscanner
+```
+
+run
+
+```sh
+apachetomcatscanner -tu https://domain.com
+```
 
 ---
 

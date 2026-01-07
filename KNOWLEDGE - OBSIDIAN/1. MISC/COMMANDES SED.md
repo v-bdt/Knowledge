@@ -51,11 +51,16 @@ Search for a string and only print the lines that were matched
 sed -n '/hello/p' file.txt
 ```
 
-
 Add string to beginning of every line
 
 ```
 sed 's/^/10.129.229.47 /' subdomains.txt
+```
+
+Append string to the end of every line
+
+```sh
+sed 's/$/string/' file.txt
 ```
 
 Remove comments. Even those that are at the end of a line
