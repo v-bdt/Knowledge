@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. Analyse des entêtes HTTP"
+              "title": "Web Services & API"
+            }
+          },
+          {
+            "id": "c04db469078cb707",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/XXE Injection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "XXE Injection"
             }
           },
           {
@@ -106,7 +120,63 @@
             }
           },
           {
-            "id": "702069efd6d178dd",
+            "id": "b53abc2a392d0feb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/3. SEARCH ENGINE DISCOVERY.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. SEARCH ENGINE DISCOVERY"
+            }
+          },
+          {
+            "id": "d7f4a20c3fbbd37c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/2. DNS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2. DNS"
+            }
+          },
+          {
+            "id": "99668efee26276df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Web Services & API"
+            }
+          },
+          {
+            "id": "e7130ebebadc9465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/IDOR (Insecure Direct Object References).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IDOR (Insecure Direct Object References)"
+            }
+          },
+          {
+            "id": "3da5ee65f91294ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -149,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ssh-add",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,7 +244,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -261,14 +331,27 @@
       "bases:Create new base": false
     }
   },
-  "active": "702069efd6d178dd",
+  "active": "3da5ee65f91294ef",
   "lastOpenFiles": [
-    "1. MISC/Servlet Containers - CI CD/TOMCAT.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/4. Analyse de vulnérabilités/2. Scan de vulnérabilités.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/IDOR (Insecure Direct Object References).md",
+    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/XXE Injection.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/SQLi (Injections SQL).md",
+    "1. MISC/DLL HIJACKING WINDOWS.md",
+    "1. MISC/DEPIXELISATION.md",
+    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/3. Configuration TLS - SSL.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/3. SEARCH ENGINE DISCOVERY.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/2. DNS.md",
+    "PROG/2. PYTHON.md",
+    "1. MISC/COMMANDES SED.md",
+    "1. MISC/Wordlists & Rules.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing/BROKEN AUTHENTICATION.md",
+    "1. MISC/Servlet Containers - CI CD/TOMCAT.md",
+    "1. MISC/Commandes GIT.md",
     "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/1. Recon/1. OSINT.md",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/Login BRUTE FORCE.md",
-    "1. MISC/COMMANDES SED.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing/BROKEN AUTHENTICATION.md",
     "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION BROKEN AUTHENTICATION.md",
     "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION Broken Function Level Authorization.md",
     "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
@@ -276,19 +359,6 @@
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/7. CRAWLING & SCRAPING.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/5. AUTOMATING RECON.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/6. FINGERPRINTING.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/4. WAYBACK MACHINE.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/0. Rappel.md",
-    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/1. WHOIS.md",
-    "REVERSE/1. ANALYSE SIMPLE/1. ANALYSE STATIQUE SIMPLE.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
-    "1. MISC/Wordlists & Rules.md",
-    "OFFSEC/RED TEAMING/14. Domain Dominance/3. DPAPI Backup Keys.md",
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/3. Configuration TLS - SSL.md",
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/1. Scan de vulnérabilités.md",
-    "OFFSEC/PENTEST/1. WEB/2. Analyse de vulnerabilités/2. Analyse des entêtes HTTP.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Command Injection.md",
     "GIT",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing",
     "OFFSEC/PENTEST/1. WEB/0. Standards/OWASP/Web Security Testing Guide (WSTG)/checklist.xlsx",

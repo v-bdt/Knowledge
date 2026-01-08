@@ -53,7 +53,7 @@ sed -n '/hello/p' file.txt
 
 Add string to beginning of every line
 
-```
+```sh
 sed 's/^/10.129.229.47 /' subdomains.txt
 ```
 
