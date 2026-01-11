@@ -19,7 +19,7 @@ https://attack.mitre.org/
 ## Cyber Kill Chain
 
 https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
-![[Pasted image 20250908231519.png]]
+![[Cyber Kill Chain.png]]
 
 ## Targeted attack lifecycle (Mandiant)
 

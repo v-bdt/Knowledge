@@ -6,7 +6,6 @@ login root
 
 
 
-
 1.  Nettoyer fichiers de packages en cache
 
 ```

@@ -53,7 +53,7 @@ Conteneur virtuel contenant:
 - Il est sandboxé avec une plage de mémoire virtuelle allouée (4Go pour les 32bits)
 - Le kernel intervient pour faire l'intermédiaire entre les plages de mémoire vituelle et physique au travers d'une table de pagination
 
-![[Pasted image 20250330004806.png]]
+![[Table de pagination Processus.png]]
 
 ---
 # MEMOIRE
