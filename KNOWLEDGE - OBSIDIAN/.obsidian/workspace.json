@@ -8,31 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9fa36e7aba8afefb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION API.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PREVENTION API"
-            }
-          },
-          {
             "id": "50551f1be658f45a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP Verb Tempering"
+              "title": "5. Active Directory"
             }
           },
           {
@@ -41,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/XXE Injection.md",
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/3. Injections/XXE Injection.md",
                 "mode": "source",
                 "source": false
               },
@@ -181,16 +167,99 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md",
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/1. Recon/1. OSINT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSRF - XSRF (Cross-Site Request Forgery)"
+              "title": "1. OSINT"
+            }
+          },
+          {
+            "id": "816b351ff162d185",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/API & Web Services.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "API & Web Services"
+            }
+          },
+          {
+            "id": "2bf3a1f1e5255101",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Active Directory"
+            }
+          },
+          {
+            "id": "5fd84c4cb81647b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4. Protocoles"
+            }
+          },
+          {
+            "id": "7fdef173546cbfe6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTTP Verb Tempering"
+            }
+          },
+          {
+            "id": "8d5f9e0fcbda6901",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/1. Enumération initiale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Enumération initiale"
+            }
+          },
+          {
+            "id": "33e28ac3692709a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. MISC/COMMANDES SED.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "COMMANDES SED"
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +288,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CSRF",
+                "query": "windows 10 iso",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -244,11 +313,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 507.5
   },
   "right": {
     "id": "0f1e4de35cfdeb34",
@@ -331,24 +400,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "99668efee26276df",
+  "active": "50551f1be658f45a",
   "lastOpenFiles": [
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/4. Analyse de vulnérabilités/1. Recherche de CVEs.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/CSRF - XSRF (Cross-Site Request Forgery).md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/Web Services & API.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/IDOR (Insecure Direct Object References).md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/LINUX.canvas",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/2. AD (no creds)/2. Pre Windows 2000 Computers.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/3. Ports ouverts.md",
+    "OFFSEC/PENTEST/2. INFRA/6. POST EXPLOITATION/1. LINUX/2. PRIVESC.md",
+    "OFFSEC/PENTEST/2. INFRA/6. POST EXPLOITATION/1. LINUX",
+    "OFFSEC/PENTEST/2. INFRA/6. POST EXPLOITATION",
+    "OFFSEC/PENTEST/2. INFRA",
+    "1. MISC/AD TOOLS/BLOODHOUND.md",
+    "1. MISC/AD TOOLS/POWERVIEW.md",
+    "1. MISC/AD TOOLS/RUBEUS.md",
+    "1. MISC/AD TOOLS/POWERUPSQL.md",
+    "1. MISC/AD TOOLS/SNAFFLER (SHARES).md",
+    "SYSADMIN/OS/2. WINDOWS/ISOS/ISOs Windows.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentification & gestion des sessions/1. BROKEN AUTHENTICATION.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentification & gestion des sessions/2. ATTAQUE & GESTION DES SESSIONS.md",
+    "1. MISC/Bruteforce en ligne.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentification & gestion des sessions/2. Gestion des sessions.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/4. Contrôle d'accès basé sur les paramètres.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/3. IDOR (Insecure Direct Object References).md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/5. IP Address Spoofing.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/1. HTTP Verb Tempering.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASSES/BYPASS RATE LIMITING.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/2. Elevation de privilèges horizontale et verticale.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP HOST HEADER.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/API & Web Services.md",
+    "OFFSEC/PENTEST/1. WEB/0.2 Méthodo/Méthodo.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/Untitled.canvas",
     "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/Attaques de Coercition/Printerbug.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/Attaques de Coercition/PetitPotam (MS-EFSRPC).md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/1. Recon/0. Rappel.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/1. Recon/1. OSINT.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/1. Identifier les hôtes.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/0. Questions utiles.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/4. Analyse de vulnérabilités/2. Scan de vulnérabilités.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/4. Analyse de vulnérabilités/0.1 Standards.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/4. Analyse de vulnérabilités/0. Methodo.md",
-    "OFFSEC/PENTEST/4. CLOUD/Ressources.md",
-    "DEVSECOPS/SAST Tools.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/8. Rapport/0. Livrables.md",
+    "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/Untitled.base",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASSES",
+    "OFFSEC/PENTEST/3. WIFI/WPA3",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/4. Inclusion & Upload de fichiers",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/3. Injections",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/LINUX.canvas",
     "Ordre de resolution de nom Miscrosoft.png",
     "OSI Model.png",
     "NetNTLM Challenge Response.png",
@@ -359,28 +449,8 @@
     "Flux d'échange TCP.png",
     "Etapes Scan de Vulnerabilités réseau.png",
     "Enumeration Types.png",
-    "OFFSEC/RED TEAMING/0. Concepts/Cycle de vie d'une attaque.md",
-    "SYSADMIN/NETWORKING/OSI model.md",
-    "SYSADMIN/DEBUG/LINUX/BLACK SCREEN.md",
     "SYSADMIN/NETWORKING",
-    "1. MISC/UUID v1 SANDWICH ATTACK.md",
-    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION Server Side Parameter Pollution.md",
-    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION Exposure of Sensitive Information.md",
-    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION API.md",
-    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION MASS ASSIGNEMENT.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
-    "OFFSEC/PENTEST/1. WEB/4. Prévention/PREVENTION BROKEN AUTHENTICATION.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing/BROKEN AUTHENTICATION.md",
-    "GIT",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentication Testing",
-    "OFFSEC/PENTEST/1. WEB/0. Standards/OWASP/Web Security Testing Guide (WSTG)/checklist.xlsx",
     "OFFSEC/RED TEAMING/Méthodologie Red Team Engagment.canvas",
-    "OFFSEC/PENTEST/4. CLOUD",
-    "DEVSECOPS",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/Attaques de Coercition",
-    "Thumbs.db",
-    "OFFSEC/RED TEAMING/Sans titre.base",
-    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)/Sans titre.canvas",
-    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)"
+    "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)/Sans titre.canvas"
   ]
 }

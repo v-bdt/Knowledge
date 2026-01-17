@@ -17,7 +17,8 @@ import-module ./powerview.ps1
 
 
 # 1. Enumération basique
-#### Informations sur un user
+
+ Informations sur un user
 
 ```powershell
 Get-DomainUser -Identity mmorgan -Domain inlanefreight.local | Select-Object -Property name,samaccountname,description,memberof,whencreated,pwdlastset,lastlogontimestamp,accountexpires,admincount,userprincipalname,serviceprincipalname,useraccountcontrol

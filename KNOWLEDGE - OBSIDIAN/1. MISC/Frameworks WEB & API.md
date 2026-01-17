@@ -68,7 +68,7 @@ Data au format JSON et envoyé au travers de d'endpoints accessibles depuis l'UR
 }
 ```
 
-# EXPLOITATION [[Web Services & API]]
+# EXPLOITATION [[API & Web Services]]
 
 
 
