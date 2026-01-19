@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+                "file": "OFFSEC/PENTEST/3. WIFI/WPA - WPA2/3. Password Cracking Techniques.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Active Directory"
+              "title": "3. Password Cracking Techniques"
             }
           },
           {
@@ -134,31 +134,17 @@
             }
           },
           {
-            "id": "e7130ebebadc9465",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/IDOR (Insecure Direct Object References).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "IDOR (Insecure Direct Object References)"
-            }
-          },
-          {
             "id": "b49156c121bc1263",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OFFSEC/PENTEST/2. INFRA - INTERNE/4. Analyse de vulnérabilités/1. Recherche de CVEs.md",
+                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/1. HTTP Verb Tempering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Recherche de CVEs"
+              "title": "1. HTTP Verb Tempering"
             }
           },
           {
@@ -218,20 +204,6 @@
             }
           },
           {
-            "id": "7fdef173546cbfe6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP Verb Tempering.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTTP Verb Tempering"
-            }
-          },
-          {
             "id": "8d5f9e0fcbda6901",
             "type": "leaf",
             "state": {
@@ -258,8 +230,47 @@
               "icon": "lucide-file",
               "title": "COMMANDES SED"
             }
+          },
+          {
+            "id": "dbbed77dcfeeda2e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "0e39c949d7de7ce2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/3. WIFI/WPA - WPA2/0.3 Interfaces Wi-Fi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "0.3 Interfaces Wi-Fi"
+            }
+          },
+          {
+            "id": "a13bfe265359022f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OFFSEC/PENTEST/3. WIFI/WPA3/1. Reconnaissance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1. Reconnaissance"
+            }
           }
-        ]
+        ],
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -288,7 +299,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "windows 10 iso",
+                "query": "arp spoofing",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -400,44 +411,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "50551f1be658f45a",
+  "active": "a13bfe265359022f",
   "lastOpenFiles": [
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/2. AD (no creds)/2. Pre Windows 2000 Computers.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/5. Active Directory.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA3/OWE.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA3/SAE.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA - WPA2/0.3 Interfaces Wi-Fi.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA - WPA2/0.2 Auth methods.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA - WPA2/0.1 802.11 Frames & Types.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA3/1. Reconnaissance.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA3/SAE",
+    "OFFSEC/PENTEST/3. WIFI/WPA3/OWE",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/3. MiTM/ARP Poisoning.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/0. Services/RDP.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/1. HTTP Verb Tempering.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP HOST HEADER.md",
+    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/5. IP Address Spoofing.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/4. Analyse de vulnérabilités/1. Recherche de CVEs.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/1. LINUX/1. PRIVESC/1. Enumération initiale.md",
+    "1. MISC/COMMANDES SED.md",
+    "1. MISC/PASSWORD ATTACKS/HASHCAT.md",
+    "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/PSRemoting (WinRM).md",
+    "1. MISC/PASSWORD ATTACKS/MOUVEMENT LATERAL/Pass The Ticket (PtT).md",
+    "1. MISC/PASSWORD ATTACKS/CISCO Password Cracking.md",
+    "1. MISC/Commandes SQL.md",
     "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/4. Protocoles.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/2. Collecte d'informations/2. Enumeration/3. Ports ouverts.md",
-    "OFFSEC/PENTEST/2. INFRA/6. POST EXPLOITATION/1. LINUX/2. PRIVESC.md",
+    "OFFSEC/PENTEST/5. Rapport/2. Résumé Opérationnel.md",
+    "OFFSEC/PENTEST/2. INFRA - INTERNE/5. EXPLOITATION/0. Services/SQL.md",
+    "SYSADMIN/OS/1. LINUX/2. Install Python.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA - WPA2/3. Password Cracking Techniques.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA - WPA2/2. Bypass Hidden SSIDs.md",
+    "OFFSEC/PENTEST/3. WIFI/WPA - WPA2/5. Bypass MAC filtering.md",
     "OFFSEC/PENTEST/2. INFRA/6. POST EXPLOITATION/1. LINUX",
     "OFFSEC/PENTEST/2. INFRA/6. POST EXPLOITATION",
     "OFFSEC/PENTEST/2. INFRA",
-    "1. MISC/AD TOOLS/BLOODHOUND.md",
-    "1. MISC/AD TOOLS/POWERVIEW.md",
-    "1. MISC/AD TOOLS/RUBEUS.md",
-    "1. MISC/AD TOOLS/POWERUPSQL.md",
-    "1. MISC/AD TOOLS/SNAFFLER (SHARES).md",
-    "SYSADMIN/OS/2. WINDOWS/ISOS/ISOs Windows.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentification & gestion des sessions/1. BROKEN AUTHENTICATION.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentification & gestion des sessions/2. ATTAQUE & GESTION DES SESSIONS.md",
-    "1. MISC/Bruteforce en ligne.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/1. Authentification & gestion des sessions/2. Gestion des sessions.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/4. Contrôle d'accès basé sur les paramètres.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/3. IDOR (Insecure Direct Object References).md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/5. IP Address Spoofing.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/1. HTTP Verb Tempering.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASSES/BYPASS RATE LIMITING.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement/2. Elevation de privilèges horizontale et verticale.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/HTTP HOST HEADER.md",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/API & Web Services.md",
-    "OFFSEC/PENTEST/1. WEB/0.2 Méthodo/Méthodo.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/Untitled.canvas",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/Attaques de Coercition/Printerbug.md",
-    "OFFSEC/PENTEST/2. INFRA - INTERNE/8. Rapport/0. Livrables.md",
     "OFFSEC/PENTEST/1. WEB/1. Collecte d'informations/Untitled.base",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/BYPASSES",
     "OFFSEC/PENTEST/3. WIFI/WPA3",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/4. Inclusion & Upload de fichiers",
     "OFFSEC/PENTEST/1. WEB/3. Exploitation/3. Injections",
-    "OFFSEC/PENTEST/1. WEB/3. Exploitation/2. Autorisations - Controle d'accès - Cloisonnement",
     "OFFSEC/PENTEST/2. INFRA - INTERNE/6. POST EXPLOITATION/LINUX.canvas",
     "Ordre de resolution de nom Miscrosoft.png",
     "OSI Model.png",
@@ -449,7 +461,6 @@
     "Flux d'échange TCP.png",
     "Etapes Scan de Vulnerabilités réseau.png",
     "Enumeration Types.png",
-    "SYSADMIN/NETWORKING",
     "OFFSEC/RED TEAMING/Méthodologie Red Team Engagment.canvas",
     "OFFSEC/RED TEAMING/16. Defence Evasion (TA005)/Sans titre.canvas"
   ]

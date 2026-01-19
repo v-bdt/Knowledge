@@ -95,7 +95,7 @@ pipx install evil-winrm-py[kerberos]
 
 ### NTLM
 
-Mot de passe en claire
+Mot de passe en clair
 
 ```sh
 evil-winrm-py -i dc01.nanocorp.htb -u 'monitoring_svc' -p 'P@ssw0rd' --debug
