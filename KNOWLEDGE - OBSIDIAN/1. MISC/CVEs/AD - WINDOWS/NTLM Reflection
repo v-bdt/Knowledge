@@ -16,7 +16,7 @@ puis utiliser le module avec proxychains
 proxychains nxc smb smb_hosts -d 'north' -u 'eddard.stark' -p '' -M ntlm_reflection
 ```
 
-Ceci dit on ne peut pas coercer vers nous même à ce moment la, on peut essayer de coercer vers une autre machine que nous controllons ?
+Ceci dit on ne peut pas coercer vers nous même à ce moment la, on peut essayer de coercer vers une autre machine que nous controllons (la machine du collègue par exemple :))
 
 
 Si les protocoles LLMNR,NBT-NS et MDNS sont activés :
